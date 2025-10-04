@@ -10,7 +10,7 @@ import { Copy, Check, AlertTriangle, ArrowLeft } from "lucide-react"
 import Link from "next/link"
 import { Header } from "@/components/header"
 
-const NAIRA_TO_USD_RATE = 1570
+const NAIRA_TO_USD_RATE = 1560
 
 interface CheckoutData {
   accountSize: string
@@ -21,10 +21,10 @@ interface CheckoutData {
 
 const paymentAddresses = {
   usdttrc20: "TE5fM54Ya5Vjirax19wo8mn4713pXhPaj6",
-  btc: "bc1q7prpzhjfcx4tpnyhjdlhdj7qythmp06zzpn5cc",
+  btc: "bc1q3kvs5tp05su7dqzsd96neh30e6yplxwqcrrsld",
   usdterc20: "0x60871771012Db3aE8832e4E919E3103b60B7a1F6",
   solana: "5N2pL9d5b5Qg1e25v4z4tch4wiPRmrjUxxWBV6Ycwuu3",
-  naira: "6674598722 - PalmPay (Billpoint App)",
+  naira: "1000293896 - Bellbank Mfb (BULLPUSE CO)",
 }
 
 export default function CheckoutPage() {
