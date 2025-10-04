@@ -302,7 +302,7 @@ export default function CheckoutPage() {
                         >
                           <div className="font-semibold">Nigerian Naira</div>
                           <div className="text-sm text-muted-foreground">
-                            Bank Transfer via PalmPay - ₦{(checkoutData.price * NAIRA_TO_USD_RATE).toLocaleString()}
+                            Bank Transfer  - ₦{(checkoutData.price * NAIRA_TO_USD_RATE).toLocaleString()}
                           </div>
                         </button>
                       </div>
