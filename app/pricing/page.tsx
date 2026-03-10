@@ -12,7 +12,7 @@ export default function PricingPage() {
             <div className="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center">
               <TrendingUp className="h-5 w-5 text-white" />
             </div>
-            <span className="text-xl font-bold text-gray-900">BullPulse</span>
+            <span className="text-xl font-bold text-gray-900">BullPuse</span>
           </Link>
 
           <nav className="hidden md:flex items-center space-x-8">
