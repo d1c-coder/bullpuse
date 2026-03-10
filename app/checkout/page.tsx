@@ -24,7 +24,7 @@ const paymentAddresses = {
   btc: "bc1q3kvs5tp05su7dqzsd96neh30e6yplxwqcrrsld",
   usdterc20: "0x60871771012Db3aE8832e4E919E3103b60B7a1F6",
   solana: "5N2pL9d5b5Qg1e25v4z4tch4wiPRmrjUxxWBV6Ycwuu3",
-  naira: "1000293896 - Bellbank Mfb (BULLPUSE CO)",
+  naira: "6012447211 - Nombank mfb/Amucha mfb (BULLPUSE CO)",
 }
 
 export default function CheckoutPage() {
